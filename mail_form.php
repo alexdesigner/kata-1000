@@ -1,5 +1,8 @@
 <?php
+	$email='alexdesigner@gmail.com';
+	$assunto='assunto: bla bla';
+	$mensagem='mensagem: huhuuh';
 
-	mail ('alexdesigner@gmail.com', 'assunto: bla bla', 'mensagem: huhuuh');
+	mail ($email, $assunto, $mensagem);
 
 ?>
